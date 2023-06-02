@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="theme-color" content="#2fc8b4"/>
+		<meta property="og:site_name" content="Made by Haziq Zamri"/>
+		<meta property="og:description" content="A Base Calculator and Converter from 2-16"/>
+		<meta name="description" content="A Base Calculator and Converter from 2-16"/>
+		<meta property="og:image" content="favicon.png"/>
+		<meta property="og:title" content="Base Calculator"/>
+		<link rel="icon" href="favicon.png"/>
+		<title>Base Calculator</title>
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1 id="calc">Base Calculator</h1>
+		<p>Choose your base</p>
+		<select id="base">
+			<option value=2>Base 2 (BINary) </option>
+			<option value=3>Base 3</option>
+			<option value=4>Base 4</option>
+			<option value=5>Base 5</option>
+			<option value=6>Base 6</option>
+			<option value=7>Base 7</option>
+			<option value=8>Base 8 (OCTal)</option>
+			<option value=9>Base 9</option>
+			<option value=10>Base 10 (DECimal)</option>
+			<option value=11>Base 11</option>
+			<option value=12>Base 12</option>
+			<option value=13>Base 13</option>
+			<option value=14>Base 14</option>
+			<option value=15>Base 15</option>
+			<option value=16>Base 16 (HEXademical)</option>
+		</select>
+		<p>Put any number in right base</p>
+		<br />
+		<input id="num1" type="text" placeholder="First Number Here"/>
+		<br />
+		<select id="operation">
+			<option value="+">Add (+)</option>
+			<option value="-">Subtraction (-)</option>
+			<option value="*">Multiplication (×)</option>
+			<option value="/">Devide (÷) </option>
+		</select>
+		<br />
+		<input id="num2" type="text" placeholder="Second Number Here"/>
+		<br />
+		<button id="solve">Solve (=)</button>
+		<p>The answer is: <span id="answer">NaN</span></p>
+		<h1 id="covt">Base Converter</h1>
+		<input id="num3" type="text" placeholder="Your number here" />
+		<p>From :</p>
+		<select id="base1">
+			<option value=2>Base 2 (BINary) </option>
+			<option value=3>Base 3</option>
+			<option value=4>Base 4</option>
+			<option value=5>Base 5</option>
+			<option value=6>Base 6</option>
+			<option value=7>Base 7</option>
+			<option value=8>Base 8 (OCTal)</option>
+			<option value=9>Base 9</option>
+			<option value=10>Base 10 (DECimal)</option>
+			<option value=11>Base 11</option>
+			<option value=12>Base 12</option>
+			<option value=13>Base 13</option>
+			<option value=14>Base 14</option>
+			<option value=15>Base 15</option>
+			<option value=16>Base 16 (HEXademical)</option>
+		</select>
+		<p>To :</p>
+		<select id="base2">
+			<option value=2>Base 2 (BINary) </option>
+			<option value=3>Base 3</option>
+			<option value=4>Base 4</option>
+			<option value=5>Base 5</option>
+			<option value=6>Base 6</option>
+			<option value=7>Base 7</option>
+			<option value=8>Base 8 (OCTal)</option>
+			<option value=9>Base 9</option>
+			<option value=10>Base 10 (DECimal)</option>
+			<option value=11>Base 11</option>
+			<option value=12>Base 12</option>
+			<option value=13>Base 13</option>
+			<option value=14>Base 14</option>
+			<option value=15>Base 15</option>
+			<option value=16>Base 16 (HEXademical)</option>
+		</select>
+		<br />
+		<button id="convert">Convert 🔁</button>
+		<p>Converted Number is: <span id="converted">NaN</span></p>
+	</body>
+</html>
