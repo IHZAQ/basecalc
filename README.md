@@ -7,6 +7,9 @@ This is just a fun tools made by me instead of normal scientific calculator whic
 4. 8(OCT)
 
 So this had full 2-16.
-If you want to use it, you can either download the html, css, and javascript file in `src` folder or you can just install the [basecalc.apk](/basecalc.apk) file directly in your phone.
+If you want to use it, you can either 
+1. Download the html, css, and javascript file in `src` folder 
+2. Visit the [website](https://sc.ihzaq.revo.gay/base) I host
+3. You can install the app  [basecalc.apk](/basecalc.apk) so you can use it even if its offline
 
 `Lightning Craft © 2023`
